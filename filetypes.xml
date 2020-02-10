@@ -19,13 +19,12 @@
       <mapping pattern=".env.vagrant" type="PLAIN_TEXT" />
       <mapping pattern="LICENSE" type="PLAIN_TEXT" />
       <mapping pattern="config" type="PLAIN_TEXT" />
-      <mapping pattern="text" type="PLAIN_TEXT" />
       <mapping pattern=".repositories.cfg" type="PLAIN_TEXT" />
-      <mapping pattern=".brandinfo_db_passwords.cfg" type="PLAIN_TEXT" />
+      <mapping pattern="text" type="PLAIN_TEXT" />
       <mapping pattern="jq" type="PLAIN_TEXT" />
       <mapping pattern=".gitkeep" type="PLAIN_TEXT" />
-      <mapping pattern=".htpasswd" type="PLAIN_TEXT" />
       <mapping pattern="table-suffix" type="PLAIN_TEXT" />
+      <mapping pattern=".htpasswd" type="PLAIN_TEXT" />
       <mapping pattern="CHANGELOG" type="PLAIN_TEXT" />
       <mapping ext="mo" type="PLAIN_TEXT" />
       <mapping ext="navi" type="PLAIN_TEXT" />
@@ -40,17 +39,18 @@
       <mapping ext="njk" type="Twig" />
       <mapping pattern="htaccess" type="htaccess" />
       <removed_mapping pattern="console" approved="true" type="PLAIN_TEXT" />
-      <removed_mapping ext="bat" approved="true" type="PLAIN_TEXT" />
       <removed_mapping ext="log" approved="true" type="PLAIN_TEXT" />
       <removed_mapping ext="dockerfile" approved="true" type="textmate" />
       <removed_mapping pattern="sess_ssg5rkc3kt76d32mrhmmtfevq5" approved="true" type="PLAIN_TEXT" />
-      <removed_mapping ext="makefile" approved="true" type="textmate" />
       <removed_mapping pattern="sess_rhu7vv6ahfkrggo7p1dkgotud6" approved="true" type="PLAIN_TEXT" />
       <removed_mapping pattern="sess_u316to1ki1hdjrpubqvg3uh8p4" approved="true" type="PLAIN_TEXT" />
-      <removed_mapping ext="cmd" approved="true" type="PLAIN_TEXT" />
+      <removed_mapping pattern=".brandinfo_db_passwords.cfg" approved="true" type="PLAIN_TEXT" />
       <removed_mapping ext="snakefile" approved="true" type="textmate" />
       <removed_mapping pattern="2013-11-13-14-00" approved="true" type="SQL" />
       <removed_mapping pattern="sess_m6onf3b67vp4pq94k4grh14j80" approved="true" type="PLAIN_TEXT" />
+      <removed_mapping ext="bat" approved="true" type="PLAIN_TEXT" />
+      <removed_mapping ext="makefile" approved="true" type="textmate" />
+      <removed_mapping ext="cmd" approved="true" type="PLAIN_TEXT" />
     </extensionMap>
   </component>
 </application>
