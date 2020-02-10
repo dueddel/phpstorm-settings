@@ -1,0 +1,48 @@
+<templateSet group="Twig">
+  <template name="dump" value="{# DEBUG: remove me! #}&#10;{{ dump($VAR$) }}" shortcut="TAB" description="{{ dump(…) }}" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="Twig" value="true" />
+    </context>
+  </template>
+  <template name="set" value="{% set $NAME$ = $VALUE$ %}" description="{% set … = %}" toReformat="true" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VALUE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="Twig" value="true" />
+    </context>
+  </template>
+  <template name="merge" value="{% set $VAR$ = $VAR$ | merge([$VALUE$]) %}" description="{% set var = var | merge([ … ]) %}" toReformat="false" toShortenFQNames="true">
+    <variable name="VAR" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VALUE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="Twig" value="true" />
+    </context>
+  </template>
+  <template name="debug" value="{# DEBUG: remove me! #}&#10;{{ dump($VAR$) }}" shortcut="TAB" description="{{ dump(…) }}" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="Twig" value="true" />
+    </context>
+  </template>
+  <template name="todo" value="{# TODO: $TODO$ #}" shortcut="TAB" description="{# TODO: … #}" toReformat="true" toShortenFQNames="true">
+    <variable name="TODO" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="Twig" value="true" />
+    </context>
+  </template>
+  <template name="fix" value="{# FIXME: $FIX$ #}" description="{# FIXME: … #}" toReformat="false" toShortenFQNames="true">
+    <variable name="FIX" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="Twig" value="true" />
+    </context>
+  </template>
+  <template name="ife" value="{% if $CONDITION$ %}&#10;    $THEN$&#10;{% else %}&#10;    $ELSE$&#10;{% endif %}" description="if…else…endif" toReformat="true" toShortenFQNames="false">
+    <variable name="CONDITION" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="THEN" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="ELSE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="Twig" value="true" />
+    </context>
+  </template>
+</templateSet>
