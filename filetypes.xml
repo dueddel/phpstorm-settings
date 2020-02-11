@@ -11,21 +11,21 @@
       <mapping ext="engine" type="PHP" />
       <mapping ext="test" type="PHP" />
       <mapping ext="theme" type="PHP" />
-      <mapping pattern="resetSkills" type="PLAIN_TEXT" />
+      <mapping pattern=".htpasswd" type="PLAIN_TEXT" />
       <mapping pattern=".secure_area_htpasswd" type="PLAIN_TEXT" />
+      <mapping pattern=".repositories.cfg" type="PLAIN_TEXT" />
       <mapping pattern="htpasswd" type="PLAIN_TEXT" />
+      <mapping pattern="config" type="PLAIN_TEXT" />
+      <mapping pattern="text" type="PLAIN_TEXT" />
+      <mapping pattern="table-suffix" type="PLAIN_TEXT" />
       <mapping pattern=".env.local" type="PLAIN_TEXT" />
       <mapping pattern=".htaccess.sample" type="PLAIN_TEXT" />
-      <mapping pattern=".env.vagrant" type="PLAIN_TEXT" />
-      <mapping pattern="LICENSE" type="PLAIN_TEXT" />
-      <mapping pattern="config" type="PLAIN_TEXT" />
-      <mapping pattern=".repositories.cfg" type="PLAIN_TEXT" />
-      <mapping pattern="text" type="PLAIN_TEXT" />
-      <mapping pattern="jq" type="PLAIN_TEXT" />
       <mapping pattern=".gitkeep" type="PLAIN_TEXT" />
-      <mapping pattern="table-suffix" type="PLAIN_TEXT" />
-      <mapping pattern=".htpasswd" type="PLAIN_TEXT" />
+      <mapping pattern="LICENSE" type="PLAIN_TEXT" />
+      <mapping pattern="resetSkills" type="PLAIN_TEXT" />
       <mapping pattern="CHANGELOG" type="PLAIN_TEXT" />
+      <mapping pattern=".env.vagrant" type="PLAIN_TEXT" />
+      <mapping pattern="jq" type="PLAIN_TEXT" />
       <mapping ext="mo" type="PLAIN_TEXT" />
       <mapping ext="navi" type="PLAIN_TEXT" />
       <mapping ext="example" type="PLAIN_TEXT" />
