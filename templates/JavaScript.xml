@@ -1,0 +1,8 @@
+<templateSet group="JavaScript">
+  <template name="con" value="console.log($OBJECT$);  //  DEBUG: remove me!" description="console.log(…);" toReformat="true" toShortenFQNames="true">
+    <variable name="OBJECT" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+</templateSet>

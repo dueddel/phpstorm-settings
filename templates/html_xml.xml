@@ -1,0 +1,3 @@
+<templateSet group="html/xml">
+  <template name="php" value="&lt;?php $SELECTION$ ?&gt;" description="PHP environment" toReformat="false" toShortenFQNames="true" />
+</templateSet>
