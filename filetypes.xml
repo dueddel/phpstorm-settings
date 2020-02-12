@@ -14,8 +14,8 @@
       <mapping pattern=".htpasswd" type="PLAIN_TEXT" />
       <mapping pattern=".secure_area_htpasswd" type="PLAIN_TEXT" />
       <mapping pattern=".repositories.cfg" type="PLAIN_TEXT" />
-      <mapping pattern="htpasswd" type="PLAIN_TEXT" />
       <mapping pattern="config" type="PLAIN_TEXT" />
+      <mapping pattern="htpasswd" type="PLAIN_TEXT" />
       <mapping pattern="text" type="PLAIN_TEXT" />
       <mapping pattern="table-suffix" type="PLAIN_TEXT" />
       <mapping pattern=".env.local" type="PLAIN_TEXT" />
