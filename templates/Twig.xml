@@ -45,4 +45,14 @@
       <option name="Twig" value="true" />
     </context>
   </template>
+  <template name="context" value="{# DEBUG: remove me! #}&#10;{{ dump(_context | keys) }}" shortcut="TAB" description="{{ dump(_context|keys) }}" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="Twig" value="true" />
+    </context>
+  </template>
+  <template name="cont" value="{# DEBUG: remove me! #}&#10;{{ dump(_context | keys) }}" shortcut="TAB" description="{{ dump(_context|keys) }}" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="Twig" value="true" />
+    </context>
+  </template>
 </templateSet>
