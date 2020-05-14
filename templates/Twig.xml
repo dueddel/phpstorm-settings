@@ -31,7 +31,7 @@
       <option name="Twig" value="true" />
     </context>
   </template>
-  <template name="fix" value="{# FIXME: $FIX$ #}" description="{# FIXME: … #}" toReformat="false" toShortenFQNames="true">
+  <template name="fix" value="{# FIXME: $FIX$ #}" shortcut="TAB" description="{# FIXME: … #}" toReformat="true" toShortenFQNames="true">
     <variable name="FIX" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="Twig" value="true" />
