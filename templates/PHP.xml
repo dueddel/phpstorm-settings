@@ -52,7 +52,7 @@
       <option name="PHP Statement" value="true" />
     </context>
   </template>
-  <template name="todo" value="//  TODO: implement me!" description="//  TODO: …" toReformat="true" toShortenFQNames="true">
+  <template name="todo" value="// TODO: implement me!" description="//  TODO: …" toReformat="true" toShortenFQNames="true">
     <context>
       <option name="JS_STATEMENT" value="true" />
       <option name="PHP" value="true" />
