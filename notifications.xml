@@ -3,6 +3,7 @@
     <notification groupId="Branch Context group" displayType="NONE" />
     <notification groupId="Dependencies from package.json" displayType="NONE" shouldLog="false" />
     <notification groupId="Docker: Dockerfile detection" displayType="NONE" shouldLog="false" />
+    <notification groupId="PHP-CGI Server" displayType="NONE" shouldLog="false" />
     <notification groupId="Vcs Important Messages" />
     <notification groupId="Vcs Notifications" displayType="NONE" />
   </component>

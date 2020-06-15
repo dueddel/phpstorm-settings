@@ -18,6 +18,7 @@
     <mask>*.hphp</mask>
     <mask>*.ctp</mask>
     <mask>*.profile</mask>
+    <mask>*.yaml</mask>
     <mask>*.php</mask>
   </component>
 </application>

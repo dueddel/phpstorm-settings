@@ -52,7 +52,7 @@
       <option name="PHP Statement" value="true" />
     </context>
   </template>
-  <template name="todo" value="//  TODO: implement me!" description="//  TODO: …" toReformat="true" toShortenFQNames="true">
+  <template name="todo" value="// TODO: implement me!" description="//  TODO: …" toReformat="true" toShortenFQNames="true">
     <context>
       <option name="JS_STATEMENT" value="true" />
       <option name="PHP" value="true" />
@@ -91,6 +91,13 @@
     <context>
       <option name="PHP" value="true" />
       <option name="PHP Comment" value="false" />
+    </context>
+  </template>
+  <template name="!em" value="!empty($VAR$) ? $VAR$ : $OTHER$" description="!empty(…) ? … : …" toReformat="false" toShortenFQNames="true">
+    <variable name="VAR" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="OTHER" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
     </context>
   </template>
 </templateSet>
