@@ -11,7 +11,7 @@
       <mapping ext="test" type="PHP" />
       <mapping ext="theme" type="PHP" />
       <mapping ext="install" type="PHP" />
-      <mapping pattern=".gitkeep" type="PLAIN_TEXT" />
+      <mapping pattern=".env.vagrant" type="PLAIN_TEXT" />
       <mapping pattern="sess_rhu7vv6ahfkrggo7p1dkgotud6" type="PLAIN_TEXT" />
       <mapping pattern="table-suffix" type="PLAIN_TEXT" />
       <mapping pattern="LICENSE" type="PLAIN_TEXT" />
@@ -24,7 +24,7 @@
       <mapping pattern=".htpasswd" type="PLAIN_TEXT" />
       <mapping pattern="resetSkills" type="PLAIN_TEXT" />
       <mapping pattern="sess_ssg5rkc3kt76d32mrhmmtfevq5" type="PLAIN_TEXT" />
-      <mapping pattern=".env.vagrant" type="PLAIN_TEXT" />
+      <mapping pattern=".gitkeep" type="PLAIN_TEXT" />
       <mapping pattern="config" type="PLAIN_TEXT" />
       <mapping pattern="text" type="PLAIN_TEXT" />
       <mapping pattern="sess_m6onf3b67vp4pq94k4grh14j80" type="PLAIN_TEXT" />
