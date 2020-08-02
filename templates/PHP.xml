@@ -52,19 +52,19 @@
       <option name="PHP Statement" value="true" />
     </context>
   </template>
-  <template name="todo" value="// TODO: implement me!" description="//  TODO: …" toReformat="true" toShortenFQNames="true">
+  <template name="todo" value="// TODO: implement me!" description="// TODO: …" toReformat="true" toShortenFQNames="true">
     <context>
       <option name="JS_STATEMENT" value="true" />
       <option name="PHP" value="true" />
     </context>
   </template>
-  <template name="deb" value="//  DEBUG: remove me!" description="//  DEBUG: remove me!" toReformat="true" toShortenFQNames="true">
+  <template name="deb" value="// DEBUG: remove me!" description="// DEBUG: remove me!" toReformat="true" toShortenFQNames="true">
     <context>
       <option name="JS_STATEMENT" value="true" />
       <option name="PHP" value="true" />
     </context>
   </template>
-  <template name="fix" value="//  FIXME: fix me!" description="//  FIXME: …" toReformat="true" toShortenFQNames="true">
+  <template name="fix" value="// FIXME: fix me!" description="// FIXME: …" toReformat="true" toShortenFQNames="true">
     <context>
       <option name="JS_STATEMENT" value="true" />
       <option name="PHP Expression" value="true" />
