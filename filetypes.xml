@@ -7,9 +7,9 @@
       <mapping pattern=".craftplugin" type="JSON" />
       <mapping ext="swf" type="Native" />
       <mapping ext="profile" type="PHP" />
+      <mapping ext="install" type="PHP" />
       <mapping ext="engine" type="PHP" />
       <mapping ext="test" type="PHP" />
-      <mapping ext="install" type="PHP" />
       <mapping ext="theme" type="PHP" />
       <mapping pattern=".env.vagrant" type="PLAIN_TEXT" />
       <mapping pattern="table-suffix" type="PLAIN_TEXT" />
