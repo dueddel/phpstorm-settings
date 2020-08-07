@@ -107,7 +107,9 @@
   <action id="EditorPreviousWordInDifferentHumpsModeWithSelection">
     <keyboard-shortcut first-keystroke="shift ctrl alt left" />
   </action>
-  <action id="EditorSelectWord" />
+  <action id="EditorSelectWord">
+    <keyboard-shortcut first-keystroke="shift ctrl enter" />
+  </action>
   <action id="EditorUnSelectWord" />
   <action id="ExpressionTypeInfo" />
   <action id="FileStructurePopup" />
