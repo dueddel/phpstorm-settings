@@ -156,7 +156,6 @@
     <keyboard-shortcut first-keystroke="alt c" second-keystroke="alt c" />
   </action>
   <action id="SelectNextOccurrence">
-    <keyboard-shortcut first-keystroke="ctrl g" />
     <keyboard-shortcut first-keystroke="meta e" />
   </action>
   <action id="ShowBookmarks">
