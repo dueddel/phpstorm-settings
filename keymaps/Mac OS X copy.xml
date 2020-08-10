@@ -53,19 +53,15 @@
     <keyboard-shortcut first-keystroke="shift ctrl #3fc" />
   </action>
   <action id="EditorCodeBlockEnd">
-    <keyboard-shortcut first-keystroke="meta close_bracket" />
     <keyboard-shortcut first-keystroke="ctrl number_sign" />
   </action>
   <action id="EditorCodeBlockEndWithSelection">
-    <keyboard-shortcut first-keystroke="shift meta close_bracket" />
     <keyboard-shortcut first-keystroke="shift ctrl number_sign" />
   </action>
   <action id="EditorCodeBlockStart">
-    <keyboard-shortcut first-keystroke="meta open_bracket" />
     <keyboard-shortcut first-keystroke="ctrl add" />
   </action>
   <action id="EditorCodeBlockStartWithSelection">
-    <keyboard-shortcut first-keystroke="shift meta open_bracket" />
     <keyboard-shortcut first-keystroke="shift ctrl add" />
   </action>
   <action id="EditorDelete">
@@ -129,6 +125,7 @@
     <mouse-shortcut keystroke="shift meta button1" />
     <mouse-shortcut keystroke="shift button2" />
   </action>
+  <action id="HideAllWindows" />
   <action id="HippieBackwardCompletion" />
   <action id="HippieCompletion" />
   <action id="MethodHierarchy" />
