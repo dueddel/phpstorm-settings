@@ -1,6 +1,6 @@
 <application>
   <component name="UISettings">
     <option name="EDITOR_TAB_LIMIT" value="30" />
-    <option name="MAX_CLIPBOARD_CONTENTS" value="30" />
+    <option name="IDE_AA_TYPE" value="Greyscale" />
   </component>
 </application>
