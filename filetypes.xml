@@ -27,8 +27,8 @@
       <mapping pattern=".gitkeep" type="PLAIN_TEXT" />
       <mapping pattern="sess_u316to1ki1hdjrpubqvg3uh8p4" type="PLAIN_TEXT" />
       <mapping pattern="sess_m6onf3b67vp4pq94k4grh14j80" type="PLAIN_TEXT" />
-      <mapping pattern="text" type="PLAIN_TEXT" />
       <mapping pattern=".env.local" type="PLAIN_TEXT" />
+      <mapping pattern="text" type="PLAIN_TEXT" />
       <mapping pattern=".brandinfo_db_passwords.cfg" type="PLAIN_TEXT" />
       <mapping pattern="CHANGELOG" type="PLAIN_TEXT" />
       <mapping ext="navi" type="PLAIN_TEXT" />
