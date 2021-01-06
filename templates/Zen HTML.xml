@@ -12,6 +12,9 @@
   <template name="ul" value="&lt;ul&gt;$END$&lt;/ul&gt;" description="&lt;ul&gt;...&lt;/ul&gt;" toReformat="false" toShortenFQNames="true">
     <context />
   </template>
+  <template name="b" value="&lt;b&gt;$END$&lt;/b&gt;" description="&lt;b&gt;...&lt;/b&gt;" toReformat="false" toShortenFQNames="true">
+    <context />
+  </template>
   <template name="i" value="&lt;i&gt;$END$&lt;/i&gt;" description="&lt;i&gt;...&lt;/i&gt;" toReformat="false" toShortenFQNames="true">
     <context />
   </template>
