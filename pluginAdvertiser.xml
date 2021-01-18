@@ -86,8 +86,9 @@
         <entry key="*.cfg">
           <value>
             <plugin>
-              <option name="myPluginId" value="gdscript" />
-              <option name="myPluginName" value="GDScript" />
+              <option name="myPluginId" value="com.jetbrains.plugins.ini4idea" />
+              <option name="myPluginName" value="Ini" />
+              <option name="myBundled" value="true" />
             </plugin>
           </value>
         </entry>
