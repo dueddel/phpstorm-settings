@@ -7,9 +7,13 @@
     <keyboard-shortcut first-keystroke="back_space" />
   </action>
   <action id="ActivateFavoritesToolWindow" />
+  <action id="ActivateProblemsViewToolWindow" />
   <action id="ActivateRunToolWindow" />
   <action id="ActivateServicesToolWindow" />
   <action id="ActivateStructureToolWindow" />
+  <action id="ActivateTODOToolWindow">
+    <keyboard-shortcut first-keystroke="meta 6" />
+  </action>
   <action id="ActivateTerminalToolWindow">
     <keyboard-shortcut first-keystroke="meta 4" />
   </action>
