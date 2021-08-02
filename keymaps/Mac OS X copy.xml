@@ -47,6 +47,14 @@
   <action id="Console.Jdbc.Close" />
   <action id="Console.TableResult.FiltersAndOrdering" />
   <action id="ContextHelp" />
+  <action id="Diff.NextChange">
+    <keyboard-shortcut first-keystroke="shift ctrl right" />
+    <keyboard-shortcut first-keystroke="ctrl right" />
+  </action>
+  <action id="Diff.PrevChange">
+    <keyboard-shortcut first-keystroke="shift ctrl left" />
+    <keyboard-shortcut first-keystroke="ctrl left" />
+  </action>
   <action id="EditorBackSpace">
     <keyboard-shortcut first-keystroke="back_space" />
   </action>
@@ -129,6 +137,10 @@
     <keyboard-shortcut first-keystroke="f7" />
     <keyboard-shortcut first-keystroke="ctrl down" />
   </action>
+  <action id="NextEditorTab">
+    <keyboard-shortcut first-keystroke="shift ctrl right" />
+    <keyboard-shortcut first-keystroke="ctrl right" />
+  </action>
   <action id="NextOccurence" />
   <action id="PhpListenDebugAction">
     <keyboard-shortcut first-keystroke="shift ctrl d" />
@@ -136,6 +148,10 @@
   <action id="PreviousDiff">
     <keyboard-shortcut first-keystroke="shift f7" />
     <keyboard-shortcut first-keystroke="ctrl up" />
+  </action>
+  <action id="PreviousEditorTab">
+    <keyboard-shortcut first-keystroke="shift ctrl left" />
+    <keyboard-shortcut first-keystroke="ctrl left" />
   </action>
   <action id="PreviousOccurence" />
   <action id="RecentChangedFiles" />
