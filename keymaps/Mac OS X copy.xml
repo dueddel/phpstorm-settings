@@ -164,6 +164,10 @@
   <action id="Scratch.OpenScratchList">
     <keyboard-shortcut first-keystroke="alt c" second-keystroke="alt c" />
   </action>
+  <action id="SelectAllOccurrences">
+    <keyboard-shortcut first-keystroke="ctrl meta g" />
+    <keyboard-shortcut first-keystroke="ctrl meta e" />
+  </action>
   <action id="SelectNextOccurrence">
     <keyboard-shortcut first-keystroke="meta e" />
   </action>
