@@ -64,7 +64,8 @@
       <option name="PHP" value="true" />
     </context>
   </template>
-  <template name="fix" value="// FIXME: fix me!" description="// FIXME: …" toReformat="true" toShortenFQNames="true">
+  <template name="fix" value="// FIXME: $fix$" description="// FIXME: …" toReformat="true" toShortenFQNames="true">
+    <variable name="fix" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JS_STATEMENT" value="true" />
       <option name="PHP Expression" value="true" />
