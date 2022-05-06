@@ -25,14 +25,15 @@
     <option name="COLUMN_ID_ORDER">
       <list>
         <option value="Default.Root" />
-        <option value="Default.Subject" />
         <option value="Default.Author" />
+        <option value="Default.Subject" />
         <option value="Default.Date" />
+        <option value="Space.CommitStatus" />
       </list>
     </option>
   </component>
   <component name="VcsApplicationSettings">
-    <option name="PATCH_STORAGE_LOCATION" value="$USER_HOME$/Desktop" />
+    <option name="PATCH_STORAGE_LOCATION" value="$USER_HOME$/Desktop/patches to sync cine with photo" />
   </component>
   <component name="VcsEditorTab.Settings">
     <option name="openInNewWindow" value="true" />
